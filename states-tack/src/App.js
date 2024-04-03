@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import ChangeColor from './components/changeColor';
+import Counter from './components/counter';
+import Secret from './components/secret-text';
+import Textarea from './components/textarea';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      first exersise
+      <Counter />
+      <div> 
+          second exersise
+      </div>
+      <Secret />
+      <Textarea />
+      <div>*******************</div>
+      <ChangeColor />
     </div>
   );
 }

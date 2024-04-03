@@ -1,6 +1,6 @@
 import React from 'react';
-const MyBoolean = (props) => {
-    if(props.message){
+const MyBoolean = ({message}) => {
+    if(message){
         return (
             <div>
                 Man

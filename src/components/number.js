@@ -1,8 +1,8 @@
 import React from 'react';
-const Number = (props) => {
+const Number = ({message}) => {
     return (
         <div>
-            Props number {props.message}
+            Props number {message}
         </div>
     )
 }

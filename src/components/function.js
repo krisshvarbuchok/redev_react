@@ -1,9 +1,9 @@
 import React from 'react';
-const MyFunction = (props) => {
+const MyFunction = ({message}) => {
     
     return (
         <div>
-           sun: {props.message()}
+           sun: {message()}
         </div>
     )
 }

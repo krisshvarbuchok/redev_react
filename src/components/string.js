@@ -1,8 +1,8 @@
 import React from 'react';
-const String = (props) => {
+const String = ({message}) => {
     return (
         <div>
-            Props string {props.message}
+            Props string {message}
         </div>
     )
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-const MyArray = (props) => {
+const MyArray = ({message}) => {
     return (
         <div>
-            Month {props.message[1]}
+            Month {message[1]}
         </div>
     )
 }

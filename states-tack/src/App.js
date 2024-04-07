@@ -10,9 +10,11 @@ function App() {
       first exersise
       <Counter />
       <div> 
+      *******************<br/>
           second exersise
       </div>
       <Secret />
+      <div>*******************</div>
       <Textarea />
       <div>*******************</div>
       <ChangeColor />

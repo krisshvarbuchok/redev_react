@@ -1,25 +1,12 @@
 import React, { useState } from 'react';
 
 const ChangeColor = () => {
-    let index = 0;
-    const arrColor = ['black', 'red' , 'blue', 'orange', 'green'];
-    let [color, setChangeColor] = useState(arrColor[index]);
+    const [color, setChangeColor] = useState('black');
     
     
     const handleClick = () => {
-        ++index;
-        let newColor = arrColor[index];
-        setChangeColor(newColor);
-       console.log(newColor);
+        setChangeColor(color === 'black' ? 'red' : 'black');
     }
-       
-    //     setChangeColor(arrColor.find((item, index, arr) => {
-    //         console.log(color);
-    //         if(index === arr.length - 1) {
-    //            return color = arr[0];
-    //         }else if(item === color) return color = arr[index + 1];
-    //     }))
-    // }
 
     const style = {
         color: color

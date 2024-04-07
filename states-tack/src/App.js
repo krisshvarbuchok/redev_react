@@ -1,4 +1,5 @@
 import './App.css';
+import AnotherCounter from './components/ParentComponent';
 import ChangeColor from './components/changeColor';
 import Counter from './components/counter';
 import Secret from './components/secret-text';
@@ -18,6 +19,8 @@ function App() {
       <Textarea />
       <div>*******************</div>
       <ChangeColor />
+      <div>*******************</div>
+      <AnotherCounter />
     </div>
   );
 }

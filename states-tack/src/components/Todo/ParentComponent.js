@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import getRandom from './getRandom';
+import getRandom from '../../utils/getRandom';
 import Greeting from './ChildComponent';
 import TextState from './SiblingComponent';
 

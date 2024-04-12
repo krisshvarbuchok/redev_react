@@ -1,4 +1,5 @@
 import './App.css';
+import LifecycleComponent from './Todo/LifecycleComponent';
 import AnotherCounter from './Todo/ParentComponent';
 import ChangeColor from './Todo/changeColor';
 import Counter from './Todo/counter';
@@ -21,6 +22,8 @@ function App() {
       <ChangeColor />
       <div>*******************</div>
       <AnotherCounter />
+      <div>*******************</div>
+      <LifecycleComponent />
     </div>
   );
 }

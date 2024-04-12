@@ -14,7 +14,7 @@ class LifecycleComponent extends React.Component{
       }
       
     async componentDidMount(){
-        //if (!this.state.todos){
+       
         try{
             const response = await axios.get(`https://todo-redev.herokuapp.com/api/todos`,{
                 headers:{
@@ -24,14 +24,14 @@ class LifecycleComponent extends React.Component{
                 },
                 
             });
-            this.setState({ todos: response.data });
-            console.log('Список задач', response.data[0].title);
+            
+            console.log('Список задач', response.data);
             
         }
         catch(error){
             console.error('Ошибка при получении данных:', error);
         }
-        //}
+        
       }
     
       

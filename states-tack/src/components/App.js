@@ -9,7 +9,7 @@ import Textarea from './Todo/textarea';
 function App() {
   return (
     <div>
-      first exersise
+      {/* first exersise
       <Counter />
       <div> 
       *******************<br/>
@@ -22,7 +22,7 @@ function App() {
       <ChangeColor />
       <div>*******************</div>
       <AnotherCounter />
-      <div>*******************</div>
+      <div>*******************</div> */}
       <LifecycleComponent />
     </div>
   );

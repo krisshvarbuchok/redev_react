@@ -96,6 +96,9 @@ const LifecycleComponent = () =>{
 
     useEffect(() => {
         console.log('didupdate');
+        // if(count % 2 !== 0){
+        //     setCount(count + 1)
+        // }
         if (count % 2 === 0){
           console.log(`Количество обновлено на ${count}`)
         }
@@ -104,7 +107,7 @@ const LifecycleComponent = () =>{
     return (
         <div>
             <p>количество кликов: {count} </p>
-            <button onClick={() => setCount( count + 2)}>+2 клик</button>
+            <button onClick={() => setCount( count + 1)}>+1 клик</button>
             <button onClick={() => setCount( count - 1)}>-1 клик</button>
             {count % 2 === 0 ? <MyComponent /> : <p>неудача</p>}
         </div>
